@@ -1,0 +1,49 @@
+.app {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+  background: #fff;
+  color: #111;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark {
+  background: #111;
+  color: #eee;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+form input, form button {
+  padding: 0.4rem;
+  font-size: 1rem;
+}
+
+form button {
+  cursor: pointer;
+}
+
+.dashboard, .book-list {
+  margin-top: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 0.4rem 0;
+}
